@@ -1,0 +1,66 @@
+name: Connect4
+
+on:
+  workflow_dispatch:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  play:
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, 'connect4|')
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: pip install Pillow
+
+      - name: Checkout Output Branch
+        uses: actions/checkout@v3
+        with:
+          ref: output
+          path: output_branch
+
+      - name: Run Game Logic
+        id: game
+        run: |
+          # Extract Move from Title (format: connect4|drop|NUM)
+          TITLE="${{ github.event.issue.title }}"
+          MOVE=$(echo $TITLE | cut -d'|' -f3)
+          
+          # Copy script to temp location to run it
+          cp .github/scripts/connect4.py output_branch/
+          
+          cd output_branch
+          
+          # Run the script
+          export MOVE_COL=$MOVE
+          export ACTOR="${{ github.actor }}"
+          python connect4.py
+          
+          # Remove script before committing
+          rm connect4.py
+          
+          # Configure git
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Commit changes
+          git add connect4.png connect4_state.txt
+          git commit -m "Move played by ${{ github.actor }}" || echo "No changes to commit"
+          git push origin output
+
+      - name: Close Issue
+        uses: peter-evans/close-issue@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment: "Move processed! Board updated. 🔴🟡"
