@@ -29,6 +29,23 @@
 
 <!-- Interactive Elements Section -->
 <div align="center">
+
+  <!-- Connect 4 Game -->
+<div align="center">
+  <h3>🔴 Connect 4 with Me! 🟡</h3>
+  <p>Click a number to drop a piece in that column!</p>
+  <a href="https://github.com/realgarit/realgarit/issues/new?body=Just+push+%27Submit+new+issue%27+to+play+turn.&title=connect4%7Cdrop%7C1">1</a> - 
+  <a href="https://github.com/realgarit/realgarit/issues/new?body=Just+push+%27Submit+new+issue%27+to+play+turn.&title=connect4%7Cdrop%7C2">2</a> - 
+  <a href="https://github.com/realgarit/realgarit/issues/new?body=Just+push+%27Submit+new+issue%27+to+play+turn.&title=connect4%7Cdrop%7C3">3</a> - 
+  <a href="https://github.com/realgarit/realgarit/issues/new?body=Just+push+%27Submit+new+issue%27+to+play+turn.&title=connect4%7Cdrop%7C4">4</a> - 
+  <a href="https://github.com/realgarit/realgarit/issues/new?body=Just+push+%27Submit+new+issue%27+to+play+turn.&title=connect4%7Cdrop%7C5">5</a> - 
+  <a href="https://github.com/realgarit/realgarit/issues/new?body=Just+push+%27Submit+new+issue%27+to+play+turn.&title=connect4%7Cdrop%7C6">6</a> - 
+  <a href="https://github.com/realgarit/realgarit/issues/new?body=Just+push+%27Submit+new+issue%27+to+play+turn.&title=connect4%7Cdrop%7C7">7</a>
+  <br/>
+  <img src="https://raw.githubusercontent.com/realgarit/realgarit/output/connect4.png" alt="Connect 4 Board" />
+</div>
+
+<br/>
   
   <!-- Random Joke -->
   <img src="https://readme-jokes.vercel.app/api?theme=dark&hide_border=true" alt="Jokes Card" />
