@@ -44,6 +44,8 @@
     <br/>
     <img src="https://raw.githubusercontent.com/realgarit/realgarit/output/connect4.png" alt="Connect 4 Board" />
   </div>
+
+  <br/>
   
   <!-- Random Joke -->
   <img src="https://readme-jokes.vercel.app/api?theme=dark&hide_border=true" alt="Jokes Card" />
