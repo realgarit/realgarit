@@ -18,3 +18,4 @@ jobs:
           issue_number: ${{ github.event.issue.number }}
           user: ${{ github.actor }}
           column: ${{ github.event.issue.title }}
+          branch_name: output
