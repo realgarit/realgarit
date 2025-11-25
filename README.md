@@ -59,7 +59,7 @@
     <a href="https://github.com/realgarit/realgarit/issues/new?body=Just+push+%27Submit+new+issue%27+to+play+turn.&title=connect4%7Cdrop%7C7">7</a>
     <br/>
     <br/>
-    <img src="https://raw.githubusercontent.com/realgarit/realgarit/output/connect4.png" alt="Connect 4 Board" width="600" />
+    <img src="https://raw.githubusercontent.com/realgarit/realgarit/output/connect4.png" alt="Connect 4 Board" />
   </div>
   
 </div>
