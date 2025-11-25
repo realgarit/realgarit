@@ -1,0 +1,20 @@
+name: Connect4
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  play:
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, 'connect4|')
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Play Connect 4
+        uses: JonathanGin52/connect4-action@v1.0.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          issue_number: ${{ github.event.issue.number }}
+          user: ${{ github.actor }}
+          column: ${{ github.event.issue.title }}
