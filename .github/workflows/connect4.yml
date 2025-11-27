@@ -26,6 +26,10 @@ jobs:
 
       - name: Setup Connect4 Branch
         run: |
+          # Configure git first
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
           # Check if connect4 branch exists, create if it doesn't
           if ! git ls-remote --heads origin connect4 | grep -q connect4; then
             git checkout --orphan connect4
