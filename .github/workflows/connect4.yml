@@ -51,8 +51,9 @@ jobs:
           TITLE="${{ github.event.issue.title }}"
           MOVE=$(echo $TITLE | cut -d'|' -f3)
           
-          # Copy script to temp location to run it
-          cp .github/scripts/connect4.py output_branch/
+          # Copy script from main checkout to output_branch
+          # The main checkout is at workspace root, output_branch is a subdirectory
+          cp "${{ github.workspace }}/.github/scripts/connect4.py" "${{ github.workspace }}/output_branch/"
           
           cd output_branch
           
