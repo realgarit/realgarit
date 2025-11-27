@@ -24,10 +24,20 @@ jobs:
       - name: Install Dependencies
         run: pip install Pillow
 
-      - name: Checkout Output Branch
+      - name: Setup Connect4 Branch
+        run: |
+          # Check if connect4 branch exists, create if it doesn't
+          if ! git ls-remote --heads origin connect4 | grep -q connect4; then
+            git checkout --orphan connect4
+            git rm -rf . || true
+            git commit --allow-empty -m "Initial commit for Connect4 branch"
+            git push origin connect4
+          fi
+
+      - name: Checkout Connect4 Branch
         uses: actions/checkout@v3
         with:
-          ref: output
+          ref: connect4
           path: output_branch
 
       - name: Run Game Logic
@@ -57,7 +67,7 @@ jobs:
           # Commit changes
           git add connect4.png connect4_state.txt
           git commit -m "Move played by ${{ github.actor }}" || echo "No changes to commit"
-          git push origin output
+          git push origin connect4
 
       - name: Close Issue
         uses: peter-evans/close-issue@v3

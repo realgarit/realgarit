@@ -25,15 +25,15 @@
   <picture>
     <source 
       media="(prefers-color-scheme: dark)" 
-      srcset="https://github.com/realgarit/realgarit/raw/output/github-contribution-grid-snake-dark.svg"
+      srcset="https://github.com/realgarit/realgarit/raw/snake/github-contribution-grid-snake-dark.svg"
     />
     <source 
       media="(prefers-color-scheme: light)" 
-      srcset="https://github.com/realgarit/realgarit/raw/output/github-contribution-grid-snake.svg"
+      srcset="https://github.com/realgarit/realgarit/raw/snake/github-contribution-grid-snake.svg"
     />
     <img 
       alt="Snake animation eating contribution graph" 
-      src="https://github.com/realgarit/realgarit/raw/output/github-contribution-grid-snake.svg"
+      src="https://github.com/realgarit/realgarit/raw/snake/github-contribution-grid-snake.svg"
     />
   </picture>
 
@@ -50,7 +50,7 @@
     <a href="https://github.com/realgarit/realgarit/issues/new?body=Just+push+%27Submit+new+issue%27+to+play+turn.&title=connect4%7Cdrop%7C7">7</a>
     <br/>
     <br/>
-    <img src="https://raw.githubusercontent.com/realgarit/realgarit/output/connect4.png" alt="Connect 4 Board" height="300" />
+    <img src="https://raw.githubusercontent.com/realgarit/realgarit/connect4/connect4.png" alt="Connect 4 Board" height="300" />
   </div>
   
 </div>
