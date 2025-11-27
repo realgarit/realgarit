@@ -1,15 +1,6 @@
-<!-- Header Section -->
-<div align="center">
-  <h3>I just build and tinker with stuff.</h3>
-  
-  <img src="https://komarev.com/ghpvc/?username=realgarit&style=for-the-badge&color=D83E3E" alt="Profile views">
-</div>
-
-<br/>
-
 <!-- Typing Animation -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=The+goal+is+just+to+understand+every+piece+of+tech+I+touch;My+passion+is+and+was+always+tech;I+spend+all+my+free+time+trying+to+break+stuff+and+put+it+back+together&center=true&width=800&height=45&size=24&font=VT323&color=D83E3E&vCenter=true&pause=1000" alt="Typing Animation">
+  <img src="https://readme-typing-svg.demolab.com/?lines=I+spend+all+my+free+time+trying+to+break+stuff+and+put+it+back+together;The+goal+is+to+understand+and+learn+on+every+piece+of+tech+I+touch;My+passion+is+and+was+always+tech&center=true&width=800&height=45&size=24&font=VT323&color=D83E3E&vCenter=true&pause=1000" alt="Typing Animation">
 </div>
 
 <!-- Tools Section -->
