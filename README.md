@@ -1,5 +1,7 @@
 <!-- Typing Animation -->
 <div align="center">
+  <img width="70" height="66" alt="logo-no-background" src="https://github.com/user-attachments/assets/6ad4453e-9341-484e-8da7-2160bb86ad83" />
+  <br/>
   <img src="https://readme-typing-svg.demolab.com/?lines=I+spend+all+my+free+time+trying+to+break+stuff+and+put+it+back+together;The+goal+is+to+understand+and+learn+on+every+piece+of+tech+I+touch;My+passion+is+and+was+always+tech&center=true&width=800&height=45&size=24&font=VT323&color=D83E3E&vCenter=true&pause=1000" alt="Typing Animation">
 </div>
 
