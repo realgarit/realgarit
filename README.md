@@ -8,7 +8,11 @@
 - Mostly servers, Microsoft 365, Azure, networking, and Linux.
 - Off the clock I build a lot myself: a homelab that runs as infrastructure as code, web apps, and small tools.
 
-**Cloud & infra**&nbsp;&nbsp;Azure · Microsoft 365 · Intune · Terraform · Docker<br>
-**Code**&nbsp;&nbsp;C# / .NET · Python · TypeScript · PowerShell
+<dl>
+  <dt>Cloud &amp; infra</dt>
+  <dd>Azure · Microsoft 365 · Intune · Terraform · Docker</dd>
+  <dt>Code</dt>
+  <dd>C# / .NET · Python · TypeScript · PowerShell</dd>
+</dl>
 
 [![Reddit](https://img.shields.io/badge/Reddit-21262d?style=flat&logo=reddit&logoColor=white)](https://www.reddit.com/user/realgarit/) [![X](https://img.shields.io/badge/X-21262d?style=flat&logo=x&logoColor=white)](https://x.com/realgarit)
