@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Patrik Lleshaj, Platform Engineer in Central Switzerland">
+  <title>Patrik Lleshaj, Platform Engineer in Central Switzerland</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef2f6"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0969da"/>
+      <stop offset="1" stop-color="#1f9cc9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.22" r="0.6">
+      <stop offset="0" stop-color="#0969da" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#0969da" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="280" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="280" rx="16" fill="url(#glow)"/>
+  <g stroke="#1f9cc9" stroke-opacity="0.32" stroke-width="1.4">
+    <line x1="864" y1="86" x2="968" y2="62"/>
+    <line x1="968" y1="62" x2="1072" y2="104"/>
+    <line x1="1072" y1="104" x2="1016" y2="170"/>
+    <line x1="1016" y1="170" x2="912" y2="196"/>
+    <line x1="912" y1="196" x2="864" y2="86"/>
+    <line x1="912" y1="196" x2="952" y2="128"/>
+    <line x1="952" y1="128" x2="1072" y2="104"/>
+    <line x1="1016" y1="170" x2="1112" y2="200"/>
+  </g>
+  <g fill="#1f9cc9" fill-opacity="0.85">
+    <circle cx="864" cy="86" r="5"/>
+    <circle cx="968" cy="62" r="4"/>
+    <circle cx="1072" cy="104" r="6"/>
+    <circle cx="1016" cy="170" r="5"/>
+    <circle cx="912" cy="196" r="4"/>
+    <circle cx="952" cy="128" r="3.5"/>
+    <circle cx="1112" cy="200" r="4"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="278" rx="16" fill="none" stroke="#1f2328" stroke-opacity="0.10"/>
+  <text x="72" y="130" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="62" font-weight="700" fill="#1f2328">Patrik Lleshaj</text>
+  <rect x="74" y="152" width="188" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="74" y="202" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="27" font-weight="500" fill="#59636e">Platform Engineer&#8195;·&#8195;Central Switzerland</text>
+</svg>

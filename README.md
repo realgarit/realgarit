@@ -1,58 +1,12 @@
-<!-- Typing Animation -->
-<div align="center">
-  <img width="70" height="66" alt="logo-no-background" src="https://github.com/user-attachments/assets/6ad4453e-9341-484e-8da7-2160bb86ad83" />
-  <br/>
-  <img src="https://readme-typing-svg.demolab.com/?lines=I+spend+all+my+free+time+trying+to+break+stuff+and+put+it+back+together;The+goal+is+to+understand+and+learn+on+every+piece+of+tech+I+touch;My+passion+is+and+was+always+tech&center=true&width=800&height=45&size=24&font=VT323&color=D83E3E&vCenter=true&pause=1000" alt="Typing Animation">
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/realgarit/realgarit/main/assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/realgarit/realgarit/main/assets/header-light.svg">
+  <img alt="Patrik Lleshaj, Platform Engineer in Central Switzerland" src="https://raw.githubusercontent.com/realgarit/realgarit/main/assets/header-light.svg" width="100%">
+</picture>
 
-<!-- Tools Section -->
-<div align="center">
+Platform Engineer in Central Switzerland. I keep IT infrastructure running, design system architectures, and deliver projects, mostly around servers, Microsoft 365, Azure, networking, and Linux. Off the clock I build a lot myself: a homelab that runs as infrastructure as code, web apps, and small tools.
 
-## Tools I Use
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff" />
-  <img alt="C#" src="https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white" />
-  <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=fff" />
-  <img alt="PowerShell" src="https://custom-icon-badges.demolab.com/badge/PowerShell-5391FE?logo=powershell-white&logoColor=fff" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000" />
-  <img alt="Azure" src="https://custom-icon-badges.demolab.com/badge/Microsoft%20Azure-0089D6?logo=msazure&logoColor=white" />
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff" />
-</div>
+**Cloud & infra**&nbsp;&nbsp;Azure · Microsoft 365 · Intune · Terraform · Docker<br>
+**Code**&nbsp;&nbsp;C# / .NET · Python · TypeScript · PowerShell
 
-<br/>
-
-<!-- Interactive Elements Section -->
-<div align="center">
-  
-  <!-- Snake Animation -->
-  <picture>
-    <source 
-      media="(prefers-color-scheme: dark)" 
-      srcset="https://github.com/realgarit/realgarit/raw/snake/github-contribution-grid-snake-dark.svg"
-    />
-    <source 
-      media="(prefers-color-scheme: light)" 
-      srcset="https://github.com/realgarit/realgarit/raw/snake/github-contribution-grid-snake.svg"
-    />
-    <img 
-      alt="Snake animation eating contribution graph" 
-      src="https://github.com/realgarit/realgarit/raw/snake/github-contribution-grid-snake.svg"
-    />
-  </picture>
-
-  <!-- Connect 4 Game -->
-  <div align="center">
-    <h3>🔴 Connect 4 with Me! 🟡</h3>
-    <p>Click a number to drop a piece in that column!</p>
-    <a href="https://github.com/realgarit/realgarit/issues/new?body=Just+push+%27Submit+new+issue%27+to+play+turn.&title=connect4%7Cdrop%7C1">1</a> - 
-    <a href="https://github.com/realgarit/realgarit/issues/new?body=Just+push+%27Submit+new+issue%27+to+play+turn.&title=connect4%7Cdrop%7C2">2</a> - 
-    <a href="https://github.com/realgarit/realgarit/issues/new?body=Just+push+%27Submit+new+issue%27+to+play+turn.&title=connect4%7Cdrop%7C3">3</a> - 
-    <a href="https://github.com/realgarit/realgarit/issues/new?body=Just+push+%27Submit+new+issue%27+to+play+turn.&title=connect4%7Cdrop%7C4">4</a> - 
-    <a href="https://github.com/realgarit/realgarit/issues/new?body=Just+push+%27Submit+new+issue%27+to+play+turn.&title=connect4%7Cdrop%7C5">5</a> - 
-    <a href="https://github.com/realgarit/realgarit/issues/new?body=Just+push+%27Submit+new+issue%27+to+play+turn.&title=connect4%7Cdrop%7C6">6</a> - 
-    <a href="https://github.com/realgarit/realgarit/issues/new?body=Just+push+%27Submit+new+issue%27+to+play+turn.&title=connect4%7Cdrop%7C7">7</a>
-    <br/>
-    <br/>
-    <img src="https://raw.githubusercontent.com/realgarit/realgarit/connect4/connect4.png" alt="Connect 4 Board" height="300" />
-  </div>
-  
-</div>
+[![Reddit](https://img.shields.io/badge/Reddit-21262d?style=flat&logo=reddit&logoColor=white)](https://www.reddit.com/user/realgarit/) [![X](https://img.shields.io/badge/X-21262d?style=flat&logo=x&logoColor=white)](https://x.com/realgarit)
