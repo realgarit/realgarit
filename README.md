@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/realgarit/realgarit/main/assets/header-dark.svg?v=4">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/realgarit/realgarit/main/assets/header-light.svg?v=4">
-  <img alt="Patrik Lleshaj, Infrastructure Engineer in Central Switzerland" src="https://raw.githubusercontent.com/realgarit/realgarit/main/assets/header-light.svg?v=4" width="100%">
+  <img alt="Patrik Lleshaj, Cloud, Infrastructure, AI in Central Switzerland" src="https://raw.githubusercontent.com/realgarit/realgarit/main/assets/header-light.svg?v=4" width="100%">
 </picture>
 
 - I keep IT infrastructure running, design system architectures, and deliver projects.
