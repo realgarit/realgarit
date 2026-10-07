@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     if: startsWith(github.event.issue.title, 'connect4|')
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -39,7 +39,7 @@ jobs:
           fi
 
       - name: Checkout Connect4 Branch
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
         with:
           ref: connect4
           path: output_branch
